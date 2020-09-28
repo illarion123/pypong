@@ -93,7 +93,7 @@ body {
   top:-9px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 720px) {
   .topnav a, .topnav-right {
     float: none;
     display: block;
@@ -183,24 +183,4 @@ body {
     font-size:80px;
   }
 
-}
-
-@media screen and (min-width: 3400px) {
-
-  .topnav a{
-    font-size:100px;
-  }
-
-  .download a{
-    font-size:130px;
-  }
-
-  .info{
-    font-size:110px;
-  }
-
-}
-
-.topnav {
-    padding: 0px 109px;
 }
