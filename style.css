@@ -93,7 +93,7 @@ body {
   top:-9px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
   .topnav a, .topnav-right {
     float: none;
     display: block;
@@ -133,54 +133,6 @@ body {
   body {
     background:#ffffff;
 
-  }
-
-}
-
-@media screen and (min-width: 3131px) {
-
-	.topnav a{
-		font-size:70px;
-	}
-
-	.download a{
-		font-size:100px;
-	}
-
-	.info{
-		font-size:80px;
-	}
-
-}
-
-@media screen and (min-width: 3000px) {
-
-  .topnav a{
-    font-size:80px;
-  }
-
-  .download a{
-    font-size:110px;
-  }
-
-  .info{
-    font-size:90px;
-  }
-
-}
-
-@media screen and (min-width: 3100px) {
-
-  .topnav a{
-    font-size:70px;
-  }
-
-  .download a{
-    font-size:100px;
-  }
-
-  .info{
-    font-size:80px;
   }
 
 }
