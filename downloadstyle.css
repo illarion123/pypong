@@ -1,0 +1,122 @@
+body {
+	background-image:url(backgroundF.png);
+	background-size:cover;
+}
+
+.info a{
+	color:#2b78ed;
+	font-family:thintel;
+	font-size:55px;
+	position:relative;
+	top:35px;
+	left:37%;
+	padding:2px 12px;
+	border: 4px solid #2b78ed;
+	border-radius:16px;
+}
+
+.downloadlinux button{
+	background:#5900ff;
+	color:#FFFFFF;
+	text-decoration: none;
+	font-size:35px;
+	padding:12px 32px;
+	border-radius:8px;
+	font-family:thintel;
+	position:absolute;
+	top:210px;
+	left:390px;
+	cursor: pointer;
+	border: 4px solid #5900ff;
+}
+
+.downloadwindows button{
+	background:#5900ff;
+	color:#FFFFFF;
+	text-decoration: none;
+	font-size:35px;
+	padding:12px 32px;
+	border-radius:8px;
+	font-family:thintel;
+	position:absolute;
+	top:210px;
+	left:690px;
+	cursor: pointer;
+	border: 4px solid #5900ff;
+}
+
+.downloadandroid button{
+	background:#5900ff;
+	color:#FFFFFF;
+	text-decoration: none;
+	font-size:35px;
+	padding:12px 32px;
+	border-radius:8px;
+	font-family:thintel;
+	position:absolute;
+	top:310px;
+	left:520px;
+	cursor: pointer;
+	border: 4px solid #5900ff;
+}
+
+
+
+.downloadlinux button:hover{
+	background:#3b00aa;
+	box-shadow: 0 -5px #3b00aa inset;
+}
+
+.downloadwindows button:hover{
+	background:#3b00aa;
+	box-shadow: 0 -5px #3b00aa inset;
+}
+
+.downloadandroid button:hover{
+	background:#3b00aa;
+	box-shadow: 0 -5px #3b00aa inset;
+}
+
+@media screen and (max-width: 600px) {
+	.info a{
+		left:20%;
+	}
+
+	.downloadlinux button{
+		top:180px;
+		left:170px;
+	}
+
+	.downloadwindows button{
+		top:380px;
+		left:161px;
+	}
+
+	.downloadandroid button{
+		top:280px;
+		left:162px;
+	}
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600.1px){
+	.info a{
+		left:36%;
+	}
+
+	.downloadlinux button{
+		top:180px;
+		left:360px;
+	}
+
+	.downloadwindows button{
+		top:380px;
+		left:351px;
+	}
+
+	.downloadandroid button{
+		top:280px;
+		left:352px;
+	}
+
+}
