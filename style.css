@@ -93,7 +93,7 @@ body {
   top:-9px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .topnav a, .topnav-right {
     float: none;
     display: block;
