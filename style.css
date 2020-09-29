@@ -115,13 +115,14 @@ body {
   }
 
   .info{
-	font-size:54px;
+	font-size:44px;
 	top: 50%;
 	left: 7%;
   }
 
   .download a{
-  top: 86%;
+  	font-size:50px;
+	top: 86%;
 	left:39%;
   }
 
